@@ -4,8 +4,6 @@ Note: Something written like \<this> means you should replace everything, includ
 
 ## Add/Commit/Push
 
----
-
 So you have a file you either created or modified, and you want your changes reflected by git. We need to run a series of commands to achieve this.
 
 First, run git add. Here are some possible variations:
@@ -38,8 +36,6 @@ which you can just copy and paste from the error message.
 
 ## Branches
 
----
-
 When developing any sort of software, it is helpful to use branches. The `main` or `master` branch holds only very stable versions of the code, and is often deployed directly to a website. Other branches can be worked on directly by developers. If I wanted to create a new branch to work on the streaming history feature, I would run the following commands:
 
 > `git branch`
@@ -54,8 +50,6 @@ If I have finished developing and testing the streaming history feature and I am
 
 ## Merge Conflicts
 
----
-
 If my branch and the main branch have differences that git cannot easily resolve, it will alert me about merge conflicts. This can come up in various ways, for example, if I run:
 
 > `git pull origin <my-branch>`
@@ -65,8 +59,6 @@ in order to have changes to `main` reflected in my branch. This could also come 
 Once I have gone through all of the conflicts in all of the conflicting files, I save, then add, commit, and push my changes. The merge conflicts should now be resolved.
 
 ## Confused?
-
----
 
 > `git status`
 
